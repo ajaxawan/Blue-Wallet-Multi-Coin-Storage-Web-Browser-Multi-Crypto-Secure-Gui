@@ -1,0 +1,2 @@
+D:\GithubNew\1\Blue-Wallet\BlueWallet\Blue Wallet\Form11\obj\Debug\Form1.csproj.AssemblyReference.cache
+D:\GithubNew\1\Blue-Wallet\BlueWallet\Blue Wallet\Form11\obj\Debug\Form1.csproj.CoreCompileInputs.cache
